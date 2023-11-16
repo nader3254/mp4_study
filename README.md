@@ -26,7 +26,7 @@ The MP4 file structure is based on the ISO Base Media File Format (ISOBMFF), whi
     </li>
 </ul>
 ## The moov atom is further divided into subatoms that provide specific metadata about the movie. These subatoms include:
-<ul></ul>
+<ul>
 <li>
     mvhd: This atom contains header information for the movie, such as the creation and modification dates, duration, and playback rate.
 </li>
@@ -43,6 +43,7 @@ The MP4 file structure is based on the ISO Base Media File Format (ISOBMFF), whi
     stbl: This atom contains sample table information, which maps media samples to their corresponding timestamps and offsets.
 </li>
 
+</ul>
 The moof atom contains one or more moof fragments, each of which contains a set of media fragments. Each media fragment is identified by a track ID and a sequence number. The mdat atom contains the raw media data for the movie, which is organized according to the track IDs and sequence numbers specified in the moof atom.
 
 The MP4 file structure is extensible, meaning that new atoms can be defined and added to the format to accommodate new features and technologies. This extensibility has made MP4 a popular and widely adopted format for multimedia content.
