@@ -25,7 +25,8 @@ The MP4 file structure is based on the ISO Base Media File Format (ISOBMFF), whi
     meta: This atom contains additional metadata, such as tags, ratings, and artwork.
     </li>
 </ul>
-## The moov atom is further divided into subatoms that provide specific metadata about the movie. These subatoms include:
+<h2> The moov atom is further divided into subatoms that provide specific metadata about the movie. These subatoms include:
+</h2>
 <ul>
 <li>
     mvhd: This atom contains header information for the movie, such as the creation and modification dates, duration, and playback rate.
